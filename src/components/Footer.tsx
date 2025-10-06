@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { Instagram, Linkedin, Twitter, Dribbble, ArrowUp } from "lucide-react";
+import { Instagram, Facebook, X, ArrowUp } from "lucide-react";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -8,10 +8,10 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Dribbble, href: "#", label: "Dribbble" }
+    { icon: Instagram, href: "https://instagram.com/fasulukubayoh", label: "Instagram" },
+    { icon: Facebook, href: "https://facebook.com/fasulukubayoh", label: "Facebook" },
+    { icon: X, href: "https://x.com/fasulukubayoh", label: "X" }, 
+    // { icon: Tiktok, href: "https://tiktok.com/@fasulukubayoh", label: "Tiktok" }
   ];
 
   const quickLinks = [
@@ -84,19 +84,19 @@ const Footer = () => {
                 <div>
                   <div className="text-sm text-muted-foreground">Email</div>
                   <a
-                    href="mailto:fasuluku@example.com"
+                    href="mailto:blackgoldsl21@hotmail.com"
                     className="text-foreground hover:text-accent transition-colors"
                   >
-                    fasuluku@example.com
+                    blackgoldsl21@hotmail.com 
                   </a>
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">Phone</div>
                   <a
-                    href="tel:+232XXXXXXXX"
+                    href="tel:+23278137776"
                     className="text-foreground hover:text-accent transition-colors"
                   >
-                    +232 XX XXX XXXX
+                    +232 (78) 137-776 / +232 (90) 137-776
                   </a>
                 </div>
                 <div>
@@ -113,7 +113,7 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="py-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-sm text-muted-foreground">
-            © 2024 Fasuluku Bayoh. All rights reserved.
+            © 2025 Fasuluku Bayoh. All rights reserved.
           </div>
           
           <div className="flex items-center space-x-6">
